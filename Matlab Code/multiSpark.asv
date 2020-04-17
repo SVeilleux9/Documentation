@@ -1,0 +1,24 @@
+highTime      = 1;
+singleLow     = 10;
+multiLowShort = 1;
+
+numSparks = 5;
+
+single.x = [0 singleLow];
+single.y = [0 0];
+multi.x  = [o single]
+
+for i = 1:numSparks
+    single.x = [single.x single.x(end)+highTime single.x(end)+highTime];
+    single.x = [single.x single.x(end)+singleLow single.x(end)+singleLow];
+    
+    single.y = [single.y 0 1 1 0];
+
+    mutli.x = [mutli.x mutli.x(end)+highTime mutli.x(end)+highTime];
+    mutli.x = [mutli.x mutli.x(end)+singleLow mutli.x(end)+singleLow];
+    mutli.x = [mutli.x mutli.x(end)+highTime mutli.x(end)+highTime];
+    mutli.x = [mutli.x mutli.x(end)+singleLow mutli.x(end)+singleLow];
+    
+    mutli.y = [mutli.y 0 1 1 0];
+    
+plot(x,y)
