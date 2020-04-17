@@ -8,3 +8,6 @@ During low speed operation if there is enough time for the dwell period of an ig
 
 ## Disclaimer
 Currently the mutli-spark in RusEFI is completely experimental and should only be used as such. The owner and user can use at their own risk to catostrophic damage to their ECU, engine, and vehicle. 
+
+## How-to Enable
+Currently you need to push some buttons, agree to some stuff, and change some settings. TODO: Learn how to enable this feature. 
